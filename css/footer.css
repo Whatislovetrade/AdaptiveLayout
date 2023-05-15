@@ -1,0 +1,171 @@
+.footer {
+}
+
+.footer__container {
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 100px;
+}
+
+@media (min-width: 768px) {
+    .footer__container {
+        display: flex;
+        padding: 0px 20px 0px 212px;
+    }
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+    .footer__content {
+        gap: 106px;
+    }
+}
+
+@media (max-width: 350px) {
+    .footer__content {
+    flex-direction: column;
+    }
+}
+
+@media (min-width: 600px) {
+    .footer__content {
+        justify-content: space-evenly;
+    }
+}
+
+
+
+.footer__products {
+    margin-bottom: 20px;
+}
+
+.footer__block {
+
+}
+
+@media (min-width: 600px) {
+    .footer__block {
+        gap: 26px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 768px) {
+    .footer__block {
+        gap: 100px;
+    }
+}
+
+
+.footer_title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.footer_text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 220%;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.footer__software {
+    margin-bottom: 35px;
+}
+
+@media (min-width: 600px) {
+    .footer__software {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.footer__resources {
+    margin-bottom: 33px;
+}
+
+@media (min-width: 768px) {
+    .footer__resources {
+        margin-right: 500px;
+    }
+}
+
+@media (min-width: 600px) {
+    .footer__resources {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+.footer__follow-us {
+}
+
+@media (min-width: 600px) {
+    .footer__follow-us {
+        width: 120px;
+        height: 120px;
+    }
+    
+}
+
+.footer__title-social {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 16px;
+    text-align: right;
+    letter-spacing: 0.13em;
+    color: #FFFFFF;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .footer__title-social {
+        display: flex;
+        margin-bottom: 20px;
+    }
+}
+
+.footer__img {
+    width: 141px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+}
+
+@media (max-width: 350px) {
+    .footer__img {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 27px;
+    }
+}
+
+.footer__links {
+}
+
+.footer_link {
+    display: inline-block;
+    transition: background-color 0.4s ease-in;
+}
+
+
+#my-svg-1:hover {
+    fill:#FFDDA0;
+}

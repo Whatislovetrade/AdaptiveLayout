@@ -1,0 +1,80 @@
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    background: radial-gradient(
+        103.78% 43.39% at 50% 42.4%,
+        #2c2923 0%,
+        #000000 100%
+    );
+}
+
+.main {
+    position: relative;
+    flex: 1 1 auto;
+}
+
+@media (min-width: 768px) {
+    main::before {
+        content: 'Nvidia Titan V';
+        position: absolute;
+        bottom: 500px;
+        right: -382px;
+        transform: rotate(90deg);
+        font-family: 'Heebo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 144px;
+        line-height: 212px;
+        text-align: center;
+        letter-spacing: 0.015em;
+        color: #b49e76;
+        opacity: 0.15;
+    }
+}
+
+.main__container {
+}
+
+.container {
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 45px 0px 0px 100px;
+        background: url('../img/Background.jpg') no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 900px;
+        width: 100%;
+        margin-bottom: 45px;
+    }
+}
+
+@media (min-width: 2000px) {
+    .container {
+        background: url('../img/2kbg/Background.png') no-repeat;
+        background-size: cover;
+        background-position: inherit;
+        height: 900px;
+        width: 100%;
+    }
+}
+
+body {
+}
+
+@media (min-width: 768px) {
+    body::after {
+        content: '';
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 175px;
+        width: 1px;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+    }
+}
